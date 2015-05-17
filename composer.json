@@ -1,0 +1,21 @@
+{
+	"name": "bleicker/context",
+	"type": "library",
+	"require": {
+		"bleicker/container": "1.0.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+	"authors": [
+		{
+			"name": "Carsten Bleicker",
+			"email": "carsten@bleicker.de"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Bleicker\\Context\\": "src"
+		}
+	}
+}
