@@ -27,6 +27,14 @@ class ContextTest extends UnitTestCase {
 	/**
 	 * @test
 	 */
+	public function domainContextTest() {
+		Context::add(Context::DOMAIN_CONTEXT, 'foo.com');
+		$this->assertEquals('foo.com', Context::get(Context::DOMAIN_CONTEXT));
+	}
+
+	/**
+	 * @test
+	 */
 	public function hiddenContextTest() {
 		Context::add('showHiddenRecords', TRUE);
 		$this->assertTrue(Context::get('showHiddenRecords'));

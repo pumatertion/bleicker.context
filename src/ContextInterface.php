@@ -12,6 +12,8 @@ interface ContextInterface {
 
 	const APPLICATION_CONTEXT = 'applicationContext',
 		APPLICATION_CONTEXT_ENV_VAR = 'CONTEXT',
+		DOMAIN_CONTEXT = 'domainContext',
+		DOMAIN_CONTEXT_ENV_VAR = 'DOMAIN',
 		PRODUCTION = 'production',
 		DEVELOPMENT = 'development',
 		TESTING = 'testing';
